@@ -1,0 +1,6 @@
+nohup: ignoring input
+WARNING ⚠️ user config directory '/home/ec2-user/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+Traceback (most recent call last):
+  File "/home/ec2-user/server/app.py", line 5, in <module>
+    from inference.analyzer import analyze_video_and_save_csv
+ImportError: cannot import name 'analyze_video_and_save_csv' from 'inference.analyzer' (/home/ec2-user/server/inference/analyzer.py)

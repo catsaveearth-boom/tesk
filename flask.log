@@ -1,0 +1,7 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "/home/ec2-user/server/app.py", line 5, in <module>
+    from inference.analyzer import analyze_video_and_save_csv
+  File "/home/ec2-user/server/inference/analyzer.py", line 4, in <module>
+    from ultralytics import YOLO
+ModuleNotFoundError: No module named 'ultralytics'
